@@ -80,7 +80,7 @@ while xpBoss > 0 && xpArray[0] > 0 || xpBoss > 0 && xpArray[1] > 0 || xpBoss > 0
                 }
                 if xpBoss == 0 {
                     print ("Босс мертв")
-                    xpBoss = -1
+                    
                 }
             }
         }
@@ -107,15 +107,12 @@ while xpBoss > 0 && xpArray[0] > 0 || xpBoss > 0 && xpArray[1] > 0 || xpBoss > 0
     }
     if countRound % 2 == 0 && xpArray[0] > 0 && xpArray[2] > 0{
         xpArray[0] = xpArray[0] + 200
-        print("\(heroArray[2]) лечит \(heroArray[0])")
     }
     if countRound % 2 == 0  && xpArray[1] > 0 && xpArray[2] > 0{
         xpArray[1] = xpArray[1] + 200
-        print("\(heroArray[2]) лечит \(heroArray[1])")
     }
     if countRound % 2 == 0 && xpArray[3] > 0 && xpArray[2] > 0{
         xpArray[3] = xpArray[3] + 200
-        print("\(heroArray[2]) лечит \(heroArray[3])")
     }
     
     
