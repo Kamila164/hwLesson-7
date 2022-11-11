@@ -100,7 +100,6 @@ while xpBoss > 0 && xpArray[0] > 0 || xpBoss > 0 && xpArray[1] > 0 || xpBoss > 0
                 print("XP героя \(hero) - \(xpHero)")
                 if xpHero == 0 {
                     print("\(hero) мертв")
-                    xpArray.insert(-1, at: xpIndex)
                 }
             }
            
@@ -125,8 +124,8 @@ while xpBoss > 0 && xpArray[0] > 0 || xpBoss > 0 && xpArray[1] > 0 || xpBoss > 0
 }
 
 if xpBoss > 0{
-    print("Босс победил, игроки мертвы. \nПрошло \(countRound) раундов")
+    print("БОСС ПОБЕДИЛ, ИГРОКИ МЕРТВЫ. \nПрошло \(countRound) раундов")
 }else{
-    print("Игроки победили, Босс мертв. \nПрошло \(countRound) раундов")
+    print("ИГРОКИ ПОБЕДИЛИ, БОСС МЕРТВ. \nПрошло \(countRound) раундов")
 }
 
